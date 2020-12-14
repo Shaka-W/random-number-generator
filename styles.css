@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    text-align: center;
+    margin: 3rem 0 2rem 0;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    margin-right: 1rem;
+}
+
+input[type='number'] {
+    margin-bottom: 1rem;
+    width: 100px;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.btn-submit {
+    margin: 2rem 0;
+    padding: 1rem;
+    width: 150px;
+    cursor: pointer;
+}
+
+.number-output {
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid #000;
+    width: 70px;
+    margin: 0 auto;
+    padding: 1rem;
+}

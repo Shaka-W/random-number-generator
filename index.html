@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Generate a random number</h1>
+        <form action="#">
+            <div class="wrapper">
+                <label for="minimum">Minimum</label>
+                <input type="number" name="minimum" id="minimum" min="0" max="100" placeholder="0">
+            </div>
+            <div class="wrapper">
+                <label for="maximum">Maximum</label>
+                <input type="number" name="maximum" id="maximum" min="0" max="100" placeholder="100">
+            </div>
+            <button type="submit" class="btn-submit">Generate</button>
+        </form>
+        <p class="number-output">0</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
